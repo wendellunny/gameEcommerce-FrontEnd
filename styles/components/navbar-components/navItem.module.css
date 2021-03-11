@@ -1,0 +1,10 @@
+.item{ 
+    margin : 0 1.25rem;
+    color: var(--text-white);
+}
+
+.item div{
+    height: 2px;
+    background: var(--red);
+
+}

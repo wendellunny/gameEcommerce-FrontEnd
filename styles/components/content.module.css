@@ -1,0 +1,14 @@
+.contentContainer{
+    width: 100vw;
+    background: none;
+
+  
+}
+
+.back2{
+    width: 100vw;
+    height: 25rem;
+    background: url("/backgrounds/back2.jpg")no-repeat center ;
+    background-size:cover;
+    background-attachment:fixed;
+}

@@ -1,0 +1,20 @@
+.menuMobileContainer{
+    display: none;
+    width: 100vw;
+    height: 4rem;
+}
+.menuMobileContainer span{
+    margin:1rem;
+    cursor:pointer;
+}
+
+.menuMobileContainer span img{
+    width: 1.8rem;
+}
+
+
+@media (max-width: 600px){
+    .menuMobileContainer{
+        display:flex;
+    }
+}

@@ -1,0 +1,47 @@
+
+
+.containerMenuMobileModal{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top:4rem;
+    background: var(--black);
+    width:12rem ;
+    
+}
+
+.containerMenuMobileModal ul{
+    align-items: center;
+    height: calc(100vh - 4rem);
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerMenuMobileModal ul li{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    cursor: pointer;
+   
+    
+    margin: 2px 0;
+}
+.containerMenuMobileModal ul li:hover{
+    background: #1C1C1C;
+}
+.containerMenuMobileModal a{
+    display: flex;
+    align-items: center;
+    
+    height: 3rem;
+    color: var(--text-white);
+    text-align: center;
+}
+
+
+@media (max-width: 600px){
+    .containerMenuMobileModal{
+        display:inherit;
+    }
+}

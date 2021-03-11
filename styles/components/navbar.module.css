@@ -1,0 +1,31 @@
+.containerNavbar{
+    background: var(--black);
+    position: fixed;
+    z-index: 2;
+}
+.containerNavbar div{
+    width: 100vw;
+    
+}
+.containerNavbar ul{
+    justify-content: center;
+    display: none;
+    height: 4rem;
+    flex-direction: row;
+    padding: 1.4rem 0;
+    
+}
+
+@media (min-width: 601px){
+    .containerNavbar ul{
+        display:flex;
+    }
+}
+
+@media (max-width: 600px){
+    .containerNavbar{
+      overflow: hidden;
+    }
+  }
+
+

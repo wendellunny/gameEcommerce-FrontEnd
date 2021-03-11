@@ -1,0 +1,95 @@
+.containerWelcome{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 3rem);
+    width: 100vw;
+    background: url("/backgrounds/back1.png")no-repeat center;
+    background-size: cover;
+    background-attachment:fixed;
+
+}
+
+
+
+.containerWelcome h1{
+    color:var(--text-white);
+    font-weight: 100;
+    font-size: 4.5rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,1);
+}
+.containerWelcome p{
+    color:var(--text-white);
+    font-weight: 100;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+
+@media (max-width : 1025px){
+    .containerWelcome{
+    
+        
+    }
+    .containerWelcome h{
+        font-size: 3.5rem;
+    }
+    .containerWelcome p{
+        font-size: 1rem;
+    }
+
+}
+@media (max-width : 801px){
+    .containerWelcome{
+
+        
+    }
+    .containerWelcome h{
+        font-size: 1.5rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width : 600px){
+    .containerWelcome{
+       
+        
+    }
+    .containerWelcome h{
+        font-size: 0.9rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+}    
+
+
+@media (max-width : 480px){
+    .containerWelcome{
+        height: 7rem;
+        
+    }
+    .containerWelcome h{
+        font-size: 1rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width : 320px){
+    .containerWelcome{
+        height: 5.6rem;
+        
+    }
+    .containerWelcome h{
+        font-size: 1rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+
+}

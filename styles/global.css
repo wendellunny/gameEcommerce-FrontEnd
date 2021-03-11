@@ -1,0 +1,71 @@
+/* Vars */
+:root{
+  --black: #333333;
+  --text-white: #FCFCFC;
+  --red: #F24848;
+}
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button{
+  cursor:pointer;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.container,li,h1,p{
+  font: 200 1rem "Inter", sans-serif;
+  
+}
+
+.container{
+  overflow: hidden;
+}
+.container-about{
+  overflow: hidden;
+}
+
+.container{
+  background: var(--black);
+}
+.container-about{
+  background: var(--text-white);
+}
+
+
+@media (max-width: 600px){
+  .container{
+    overflow: hidden;
+  }
+  .container-about{
+    overflow: hidden;
+  }
+}
+
+
+.smooth-scrool {
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+
+#smooth-scrool{
+  transition: 0.7s;
+}
+#smooth-scrool2{
+  transition: opacity 0.3s;
+}
+
+

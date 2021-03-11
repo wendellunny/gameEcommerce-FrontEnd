@@ -1,0 +1,75 @@
+.containerVideoGame{
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    justify-content: space-between;
+    
+    display: flex;
+    background-color: var(--text-white);
+}
+.containerVideoGame div{
+    flex: 0.5;
+    padding: 6rem 0 6.2rem 6.2rem;
+    
+
+}
+
+.containerVideoGame img{
+    width: 26rem;
+}
+
+.containerVideoGame span{
+    
+
+    flex: 0.5;
+    margin-left: 8rem;
+   margin-top:0;
+}
+
+.containerVideoGame h1{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.containerVideoGame p{
+    color: var(--black);
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1025px){
+    .containerVideoGame{
+        flex-direction: row-reverse;
+        
+    }
+    .containerVideoGame div{
+        flex:1;
+        padding: 6rem 6.2rem 6.2rem 0 ;
+    }
+    .containerVideoGame span{
+        margin-left: 0;
+        flex:1;
+    }
+}
+@media (max-width: 850px){
+    .containerVideoGame{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .containerVideoGame div{
+        padding:1rem 2rem 6rem 2rem;
+        flex:1;
+        
+    }
+    .containerVideoGame div >h1{
+        width: 100%;
+        text-align: center;
+    }
+    .containerVideoGame div >p{
+        width: 100%;
+        text-align: center;
+    }
+    .containerVideoGame span{
+        flex:1;
+    }
+}
