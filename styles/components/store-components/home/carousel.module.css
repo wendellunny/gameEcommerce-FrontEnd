@@ -1,0 +1,45 @@
+.containerCarousel{
+
+}
+.containerCarousel div:nth-child(1){
+    position:relative;
+    display:flex;
+}
+.containerCarousel div:nth-child(1) img{
+    width: 100vw;
+}
+
+.containerCarousel :nth-child(2) {
+    
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    z-index: 10;
+
+}
+.containerCarousel :nth-child(2) > span{
+    border-radius: 50%;
+    margin-top: -4rem;
+    z-index: 10;
+    margin-left: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: var(--black);
+}
+.containerCarousel :nth-child(2) > div{
+    border-radius: 50%;
+    margin-top: -4rem;
+    z-index: 10;
+    margin-left: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: var(--red);
+}
+.prevNext{
+ 
+    display:flex;
+    justify-content: space-between;
+    display: absolute;
+  
+    left: 0;
+}

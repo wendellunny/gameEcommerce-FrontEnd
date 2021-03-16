@@ -3,6 +3,7 @@
   --black: #333333;
   --text-white: #FCFCFC;
   --red: #F24848;
+  --green: #36C960;
 }
 
 
@@ -25,7 +26,7 @@ ol, ul {
 	list-style: none;
 }
 
-.container,li,h1,p{
+.container,li,h1,p,button,a,span{
   font: 200 1rem "Inter", sans-serif;
   
 }

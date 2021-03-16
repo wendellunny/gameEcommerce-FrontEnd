@@ -1,0 +1,121 @@
+.containerBannersCategories{   
+    display: flex;
+    justify-content: center;
+    margin-bottom:4rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.containerBannersCategories > div{
+    position: relative;
+    width: 34.25rem;
+    height: 21rem;
+   overflow: hidden;
+   margin-right: 1.25rem;
+   border-radius: 0.7rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+   
+  
+
+
+   
+    
+}
+.containerBannersCategories :nth-child(2){
+    margin-right: 0;
+    
+}
+.containerBannersCategories > div img{
+    margin: 0 auto;
+    width:38.5rem;
+    
+    
+    transition: 0.6s;
+    
+}
+
+.containerBannersCategories > div button{
+    background: var(--text-white);
+    color:var(--black);
+    font-weight: 400;
+    border:none;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    align-self: flex-end;
+    position:absolute;
+    width: 10.25rem;
+    height: 2.8rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.09);
+    transition: 0.2s;
+
+
+   
+    
+}
+.containerBannersCategories > div button:hover{
+    background: var(--red);
+    color:var(--text-white);
+    transition:  0.4s;
+}
+
+
+
+@media (max-width : 1025px){
+    .containerBannersCategories{   
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+
+@media (max-width : 801px){
+    .containerBannersCategories{   
+        align-items: center;
+        flex-direction: column;
+    }
+    .containerBannersCategories > div{   
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width:31.25rem;
+        height: 18rem;
+    }
+   
+    
+
+}
+@media (max-width : 600px){
+    
+    .containerBannersCategories > div{   
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width:25.25rem;
+        height: 18rem;
+    }
+}
+
+
+@media (max-width : 480px){
+    .containerBannersCategories > div{   
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width:15.25rem;
+        height: 16rem;
+    }
+
+}
+@media (max-width : 320px){
+    .containerBannersCategories > div{   
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width:13.25rem;
+        height: 16rem;
+    }
+
+}
+

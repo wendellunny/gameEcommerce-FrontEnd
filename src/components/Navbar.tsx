@@ -21,7 +21,7 @@ export function Navbar(props : typeProps){
                     </NavItem>
 
                     <NavItem 
-                        link="#"
+                        link="/store"
                         isSelected = {props.selected === "loja" ? true : false}
                     >
                         Loja

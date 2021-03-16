@@ -1,0 +1,114 @@
+.containerProductThumbnail{
+    width: 17.5rem;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 3.3rem;
+    margin-left: 1rem;
+}
+.containerProductThumbnail>div:nth-of-type(1){
+    display:flex;
+    flex-direction: column;
+   
+}
+.containerProductThumbnail>div:nth-of-type(1) > div{
+    height:11.75rem ;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+.containerProductThumbnail>div:nth-of-type(1) > div > span{
+    opacity:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    display:flex;
+    position:absolute;
+    transition: 0.7s;
+    
+   
+}
+.containerProductThumbnail>div:nth-of-type(1) > div > span:hover{
+    opacity:1;
+    transition: 0.7s;
+    
+    
+   
+}
+.containerProductThumbnail>div:nth-of-type(1) > div > img{
+    transition: 0.7s;
+    width:17.5rem;
+    
+   
+}
+.containerProductThumbnail>div:nth-of-type(1) > div > span a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    color:var(--text-white);
+    font-size: 1.2rem;
+   
+}
+
+.containerProductThumbnail>div:nth-of-type(1) button{
+    height: 3.3rem;
+    border:none;
+    background: var(--black);
+    color:var(--text-white);
+    font-size: 1rem;
+    font-weight: 500;
+   transition: 0.2s;
+}
+.containerProductThumbnail>div:nth-of-type(1) button:hover{
+    
+    background: var(--green);
+    transition: 0.2s;
+    
+    
+   
+}
+.containerProductThumbnail>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+   
+}
+.containerProductThumbnail>div:nth-of-type(2)>div {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.containerProductThumbnail>div:nth-of-type(2)>div span:nth-of-type(1) {
+    align-self:flex-end;
+    font-size: 1.6rem;
+    margin-right: 0.3rem;
+    color:var(--black);
+    margin-bottom: 0.7rem;
+   
+}
+.containerProductThumbnail>div:nth-of-type(2)>div > p{
+    align-self: flex-end;
+    font-size: 4rem;
+    margin-right: 0.3rem;
+    color:var(--black);
+   
+}
+.containerProductThumbnail>div:nth-of-type(2)>div > span:nth-of-type(2){
+    align-self: flex-start;
+    font-size: 1.6rem;
+    color:var(--black);
+   
+}
+.containerProductThumbnail>div:nth-of-type(2)>span{
+    align-self: center;
+    font-size:1.25rem ;
+    color:var(--black);
+    width:83%;
+   
+}

@@ -1,0 +1,144 @@
+.navbarStore{
+    background: var(--black);
+}
+
+.navbarStore ul{
+    display:flex;
+    width:100vw;
+    height: 5.75rem;
+    justify-content: center;
+    align-items: center;
+}
+.navbarStore ul li{
+    display:flex;
+    
+}
+
+.navbarStore ul :nth-child(1) a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:var(--text-white);
+    margin-right: 2rem;
+    padding: 1rem;
+
+}
+
+.navbarStore ul :nth-child(2) input{
+   width: 40rem; 
+   height: 2.3rem;
+   font-size: 1.3rem;
+   padding-left: 0.4rem;
+
+}
+.navbarStore ul :nth-child(2) {
+   position: relative;
+   background: none;
+   border:none;
+
+}
+.navbarStore ul :nth-child(2) button{
+    left:37.5rem;
+   position: absolute;
+
+}
+.navbarStore ul :nth-child(2) button img{
+    margin-top: 0.1rem;
+    width: 2.1rem;
+
+}
+.navbarStore ul :nth-child(3) div{
+    height: 2.3rem;
+    padding: 0 2.1rem;
+
+}
+.navbarStore ul :nth-child(3) div:nth-of-type(1){
+    border-right: solid 1px var(--red);
+
+}
+
+
+@media (max-width : 1025px){
+    .navbarStore ul :nth-child(2) input{
+        width: 33rem; 
+        
+     
+     }
+     .navbarStore ul :nth-child(2) button{
+        left:30.5rem;
+       position: absolute;
+    
+    } 
+    
+    .navbarStore ul :nth-child(3) div{
+        padding: 0 1.5rem;
+    
+    }
+    .navbarStore ul :nth-child(1) a{
+        
+        margin-right: 1.5rem;
+        padding: 1rem 0.5rem;
+    
+    }
+
+}
+
+
+@media (max-width : 801px){
+    .navbarStore ul :nth-child(2) input{
+        width: 24rem; 
+        
+     
+     }
+     .navbarStore ul :nth-child(2) button{
+        left:21.5rem;
+       position: absolute;
+    
+    } 
+    
+    .navbarStore ul :nth-child(3) div{
+        padding: 0 1rem;
+    
+    }
+    .navbarStore ul :nth-child(1) a{
+        
+        margin-right: 1rem;
+        padding:  1rem 0 ;
+    
+    }
+    
+
+}
+@media (max-width : 600px){
+    .navbarStore ul {
+        display:none;
+    }
+}
+
+
+@media (max-width : 480px){
+    .containerWelcome{
+        height: 7rem;
+        
+    }
+    .containerWelcome h{
+        font-size: 1rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width : 320px){
+    .containerWelcome{
+        height: 5.6rem;
+        
+    }
+    .containerWelcome h{
+        font-size: 1rem;
+    }
+    .containerWelcome p{
+        font-size: 0.9rem;
+    }
+
+}
+
