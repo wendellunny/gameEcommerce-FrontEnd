@@ -9,7 +9,7 @@ export function NavbarStore(){
                    <a href="/">Home</a>
                </li>
                <li>
-                   <form action="#">
+                   <form>
                        <input type="text" name="" id=""/>
                        <button>
                            <img src="/icons/search-icon.svg" alt=""/>

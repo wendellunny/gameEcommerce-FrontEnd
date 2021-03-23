@@ -11,6 +11,9 @@
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-map-interaction": "^2.0.0",
+    "react-medium-image-zoom": "^4.3.1",
+    "react-medium-zoom": "^1.0.0",
     "relax-js": "0.0.1",
     "rellax": "^1.12.1",
     "typescript": "^4.2.3"

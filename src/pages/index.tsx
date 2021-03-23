@@ -18,6 +18,9 @@ export default function Home() {
   return (
    
       <div className="container">
+        <Head>
+          <title>Game Ecommerce</title>
+        </Head>
         <Navbar selected = "home"/>
         <MenuMobileModal selected ="home"/>
         <Content/>

@@ -14,7 +14,7 @@ export function ProductThumbnail(){
             <div>
                 <div>
                     <span onMouseEnter={imgMouseEnter} onMouseLeave={imgMouseLeave}>
-                        <a href="#">Ver Produto</a>
+                        <a href="/store/product">Ver Produto</a>
                     </span>
                     <img src="/img/ps4.png" alt="" style={{width:`${imgSize}rem`}}/>
                 </div>

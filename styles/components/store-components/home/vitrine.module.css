@@ -62,8 +62,6 @@
         height: 18rem;
     }
 }
-
-
 @media (max-width : 480px){
     .containerBannersCategories > div{   
         margin-right: 0;
@@ -71,7 +69,6 @@
         width:15.25rem;
         height: 16rem;
     }
-
 }
 @media (max-width : 320px){
     .containerBannersCategories > div{   
