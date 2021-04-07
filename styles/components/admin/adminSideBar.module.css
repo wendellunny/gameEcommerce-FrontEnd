@@ -1,0 +1,74 @@
+.containerAdminSideBar{
+    display:flex;
+    width: 16.9rem;
+    height: 63.5rem;
+    padding: 0 1rem 0 0.75rem;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(63, 63, 68, 0.08);
+    
+}
+.containerAdminSideBar ul{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-top: solid 1px #E4E7EB;
+    padding-top: 1rem;
+   
+    
+}
+
+.containerAdminSideBar ul li > a{
+    padding-left: 1.2rem;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    width: 15rem;
+    height: 3.8rem;
+    
+    border-radius: 0.25rem;
+}
+.containerAdminSideBar ul li:nth-of-type(1) > a{
+    border-left: solid 3px var(--admin-blue);
+    background: var(--admin-selected-items);    
+}
+.containerAdminSideBar ul li > a > span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--admin-gray);
+   
+    
+}
+
+
+.containerAdminSideBar ul > li  div{
+    background: var(--admin-gray);
+    margin-right: 0.5rem;
+}
+
+.containerAdminSideBar ul > li:nth-of-type(1)  div{
+   background: var(--admin-purple);
+    width:1.5rem;
+    height: 1.5rem;
+    mask:url("/icons/admin/dashboard.svg") center no-repeat;
+    mask-size: 1.5rem 1.5rem;
+   
+    
+}
+.containerAdminSideBar ul > li:nth-of-type(2)  div{
+    
+    width:1.5rem;
+    height: 1.5rem;
+    mask:url("/icons/admin/users.svg") center no-repeat;
+    mask-size: 1.5rem 1.5rem;
+   
+    
+}
+.containerAdminSideBar ul > li:nth-of-type(3)  div{
+    
+    width:1.5rem;
+    height: 1.5rem;
+    mask:url("/icons/admin/products.svg") center no-repeat;
+    mask-size: 1.5rem 1.5rem;
+   
+    
+}

@@ -1,0 +1,24 @@
+.containerAdminNavbar{
+    display: flex;
+    background:var(--admin-purple); 
+    padding: 0 1.9rem ;   
+}
+.containerAdminNavbar ul{
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    height: 4rem;
+    width:100vw;
+}
+.containerAdminNavbar ul li > a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+}
+.containerAdminNavbar ul > li > span{
+    cursor:pointer;
+}
+.containerAdminNavbar ul > li > :nth-child(1){
+    margin-right: 1rem;
+}
+

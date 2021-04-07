@@ -5,12 +5,22 @@
   --red: #F24848;
   --green: #36C960;
   --gray: #EFEFEF;
+
+
+  --admin-purple: #3F51B5;
+  --admin-gray: #66788A;
+  --admin-blue: #1665D8;
+  --admin-background: #F9FAFC;
+  --admin-selected-items: #F6F9FD;
+  
+
+
 }
 
 
 
 
-*{
+*,label{
   margin:0;
   padding:0;
   box-sizing: border-box;

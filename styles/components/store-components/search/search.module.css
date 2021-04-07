@@ -1,0 +1,9 @@
+.containerSearch{
+    display:Flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.containerSearch > :nth-child(3){
+    display: flex;
+    margin: 1rem 3.1rem;
+}

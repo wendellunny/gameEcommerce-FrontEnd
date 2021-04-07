@@ -1,7 +1,18 @@
+import { useContext, useEffect } from "react";
 import styles from "../../../../styles/components/store-components/home/navbarStore.module.css";
+import { SearchContext } from "../../../contexts/search/SearchContext";
 import { MenuMobile } from "../../navbar-components/MenuMobile";
 
 export function NavbarStore(){
+    const {searchQuery} = useContext(SearchContext);
+    useEffect(()=>{
+        if(searchQuery){
+            document.getElementById("searchInput").value = searchQuery;
+        }
+        
+    },[searchQuery]);
+
+    
     return(
         <nav className = {styles.navbarStore}>
            <ul>
@@ -9,8 +20,8 @@ export function NavbarStore(){
                    <a href="/">Home</a>
                </li>
                <li>
-                   <form>
-                       <input type="text" name="" id=""/>
+                   <form action="/store/search" method="get">
+                       <input type="text" name="q" id="searchInput"/>
                        <button>
                            <img src="/icons/search-icon.svg" alt=""/>
                         </button>

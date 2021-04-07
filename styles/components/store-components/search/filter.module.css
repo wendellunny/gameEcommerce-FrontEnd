@@ -1,0 +1,77 @@
+.containerFilter{
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+    
+}
+.containerFilter > h1{
+    padding-left: 0.2rem;
+    font-size: 1.9rem;
+    border-left: solid 0.4rem var(--red);
+    margin-bottom: 4.3rem;
+}
+.containerFilter{
+    display: flex;
+    flex-direction: column;
+}
+.containerFilter > div {
+    display: flex;
+    flex-direction: column;
+}
+.containerFilter > div >h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.containerFilter > div >div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.9rem;
+    margin-bottom: 5rem;
+    
+}
+.containerFilter > div > div > span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.containerFilter > div > div > span > span {
+    font-size: 1.25rem;
+}
+.containerFilter  input {
+    display: none;
+    
+}
+.containerFilter  input + label:before{
+    cursor: pointer;
+    display: inline-block;
+    content: '';
+    width: 1.25rem;
+    height: 1.25rem;
+    border: solid 2px var(--red);
+    margin-right: 0.3rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.05rem ;
+    padding-bottom: 0.2rem;
+    box-sizing: border-box;
+    
+}
+
+.containerFilter button{
+    display:none;
+}
+
+.containerFilter input:checked + label:before{
+ 
+    color: var(--black);
+    content: '\220E';
+    font-size: 1.6rem;
+}
+
+  
+
+  

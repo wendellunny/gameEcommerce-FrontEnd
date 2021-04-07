@@ -1,0 +1,8 @@
+.containerSearchList{
+    margin-left:11.25rem;
+}
+.containerSearchList > div{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;  
+}
